@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+p{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5%;
+    padding: 1%;
+    width: 132px;
+    font-size: 200%;
+    height: auto;
+    background-color: rgba(196, 27, 27, 0.5);
+    border-radius: 10%;
+    color: rgb(57, 60, 102);
+    
+
+}
