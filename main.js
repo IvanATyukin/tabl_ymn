@@ -3,7 +3,7 @@ let b = []
 for (i=2; i<10;i++){
     for (j=1; j<10;j++){
 
-        b.push(i, '*', j, '=', Number(i*j))
+        b.push(i, '*', j, '=', Number(i*j), '\n')
     }
 a.push(b)
 b = []
