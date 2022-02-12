@@ -22,7 +22,24 @@ ul{
     list-style: none;
 
 }
-@media screen and (min-width:1300px){
+@media screen and (max-device-width:700px){
+    body{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    ul{
+        width:47px;
+        height: 120px;
+        
+    }
+    li{
+        font-size: 10.5px;
+    }
+}
+@media screen and (min-device-width:1300px){
     ul{
         box-sizing: border-box;
         width:141.34px;
@@ -40,22 +57,5 @@ ul{
         align-items: center;
         justify-content: space-evenly;
 
-    }
-}
-@media screen and (max-width:700px){
-    body{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
-    ul{
-        width:47px;
-        height: 120px;
-        
-    }
-    li{
-        font-size: 10.5px;
     }
 }
